@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+input, select, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#resultCard {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
